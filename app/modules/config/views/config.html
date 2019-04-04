@@ -1,0 +1,21 @@
+<div ng-app="notesApp" ng-controller="ConfigCtrl" class="col-sm-12 align-center">
+	<h3> Configuration </h3>
+
+	<form name = "form-test">
+		<p>
+			<label for="login" class="label">Server : </label>
+			<input id="server" type="text" name="server" ng-model="server" class="form-control" placeholder="server"/>
+
+			<label for="login" class="label">Port : </label>
+			<input id="port" type="text" name="port" ng-model="port" class="form-control" placeholder="port"/>
+			<label for="login" class="label">Port : </label>
+			<color-picker ng-model="color" options="options"></color-picker>
+
+		
+
+
+		</p>
+		<button type="button" name="validate" ng-click="save()" class="btn btn-sm btn-success">Enregistrer</button>
+	</form>
+
+</div>
